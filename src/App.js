@@ -1,5 +1,5 @@
 import React from "react";
-import { Article, Brand, Cta, Navbar } from "./components";
+import { Brand, Cta, Navbar } from "./components";
 import {
   Blog,
   Features,
@@ -8,6 +8,7 @@ import {
   Possibility,
   WhatGPT,
 } from "./containers";
+import "./app.css";
 
 const App = () => {
   return (
